@@ -58,6 +58,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
 /*# sourceURL=/wp-includes/blocks/heading/style.min.css */
 </style>
+<style id="wp-block-separator-inline-css">
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=/wp-includes/blocks/separator/style.min.css */
+</style>
 <style id="wp-block-post-content-inline-css">
 .wp-block-post-content{display:flow-root}
 /*# sourceURL=/wp-includes/blocks/post-content/style.min.css */
@@ -72,6 +76,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 :root :where(.wp-block-buttons-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flow) > *{margin-block-start: 16px;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > *{margin-block-start: 16px;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flex){gap: 16px;}:root :where(.wp-block-buttons-is-layout-grid){gap: 16px;}
 :root :where(.wp-block-post-title a:where(:not(.wp-element-button))){text-decoration: none;}
 :root :where(.wp-block-post-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-separator){border-color: currentColor;border-width: 0 0 1px 0;border-style: solid;color: var(--wp--preset--color--accent-6);}
 :root :where(.wp-block-site-title){font-weight: 700;letter-spacing: -.5px;}
 :root :where(.wp-block-site-title a:where(:not(.wp-element-button))){text-decoration: none;}
 :root :where(.wp-block-site-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
@@ -83,6 +88,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <style id="block-style-variation-styles-inline-css">
 :root :where(.is-style-section-1--2 .wp-block-separator){color: color-mix(in srgb, currentColor 25%, transparent);}:root :where(.is-style-section-1--2 .wp-block-site-title){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-site-title a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-post-author-name){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-post-author-name a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-post-date){color: color-mix(in srgb, currentColor 85%, transparent);}:root :where(.is-style-section-1--2 .wp-block-post-date a:where(:not(.wp-element-button))){color: color-mix(in srgb, currentColor 85%, transparent);}:root :where(.is-style-section-1--2 .wp-block-post-terms){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-post-terms a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-comment-author-name){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-comment-author-name a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-comment-date){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-comment-date a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-comment-edit-link){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-comment-edit-link a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-comment-reply-link){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-comment-reply-link a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-pullquote){color: currentColor;}:root :where(.is-style-section-1--2 .wp-block-quote){color: currentColor;}:root :where(.wp-block-group.is-style-section-1--2){background-color: var(--wp--preset--color--accent-5);color: var(--wp--preset--color--contrast);}
 :root :where(p.is-style-text-subtitle--3){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(.is-style-section-5--4 .wp-element-button, .is-style-section-5--4 .wp-block-button__link){background-color: var(--wp--preset--color--base);color: var(--wp--preset--color--contrast);}:root :where(.is-style-section-5--4 .wp-element-button:hover, .is-style-section-5--4 .wp-block-button__link:hover){background-color: color-mix(in srgb, var(--wp--preset--color--base) 80%, transparent);color: var(--wp--preset--color--contrast);}:root :where(.is-style-section-5--4 .wp-block-separator){color: color-mix(in srgb, currentColor 25%, transparent);}:root :where(.is-style-section-5--4 .wp-block-post-author-name){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-post-author-name a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-post-date){color: color-mix(in srgb, currentColor 85%, transparent);}:root :where(.is-style-section-5--4 .wp-block-post-date a:where(:not(.wp-element-button))){color: color-mix(in srgb, currentColor 85%, transparent);}:root :where(.is-style-section-5--4 .wp-block-post-terms){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-post-terms a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-comment-author-name){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-comment-author-name a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-comment-date){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-comment-date a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-comment-edit-link){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-comment-edit-link a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-comment-reply-link){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-comment-reply-link a:where(:not(.wp-element-button))){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-pullquote){color: currentColor;}:root :where(.is-style-section-5--4 .wp-block-quote){color: currentColor;}:root :where(.wp-block-group.is-style-section-5--4){background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}
 /*# sourceURL=block-style-variation-styles-inline-css */
 </style>
 <style id="wp-emoji-styles-inline-css">
@@ -173,7 +179,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 						<div class="wp-block-navigation__responsive-dialog" data-wp-bind--aria-modal="state.ariaModal" data-wp-bind--aria-label="state.ariaLabel" data-wp-bind--role="state.roleAttribute">
 							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" data-wp-on--click="actions.closeMenuOnClick"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
 							<div class="wp-block-navigation__responsive-container-content" data-wp-watch="callbacks.focusFirstElement" id="modal-1-content">
-								<ul class="wp-block-navigation__container is-responsive wp-block-navigation"><li class=" wp-block-navigation-item current-menu-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/installation-editions/" aria-current="page"><span class="wp-block-navigation-item__label">Installation &amp; Editions</span></a></li></ul>
+								<ul class="wp-block-navigation__container is-responsive wp-block-navigation"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/rend_dxg-ini/"><span class="wp-block-navigation-item__label">TextureSetSize Calculator</span></a></li><li class=" wp-block-navigation-item current-menu-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/installation-editions/" aria-current="page"><span class="wp-block-navigation-item__label">Installation &amp; Editions</span></a></li></ul>
 							</div>
 						</div>
 					</div>
@@ -197,11 +203,11 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 
 
 <main class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--60)">
-	
-	<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-		
-		<h1 class="wp-block-post-title">Installation &amp; Editions</h1>
-		<div class="entry-content alignfull wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+
+<h1 class="has-text-align-center wp-block-post-title">Installation &amp; Editions</h1>
+
+<div class="entry-content alignfull wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
 <div class="wp-block-group alignfull is-style-section-1 has-global-padding is-layout-constrained wp-block-group-is-layout-constrained is-style-section-1--2" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-66fad18a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--50);flex-basis:45%">
@@ -239,7 +245,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 
 
 
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Reshade</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">ReShade</a></div>
 </div>
 </div>
 
@@ -248,26 +254,24 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <p class="is-style-text-subtitle is-style-text-subtitle--3">Original Papyrus NASCAR 2003 Racing Season installer with a few additional tweaks to help you get setup and racing quickly!</p>
 </div>
 </div>
-
-
-
-<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex"></div>
 </div>
 
 
 
 <div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-container-core-group-is-layout-ebee8dc1 wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex">
-<h2 class="wp-block-heading alignwide has-text-align-center"><strong><br></strong>Editions: Ready-To-Race Bundles<br>                     </h2>
+<div class="wp-block-group is-style-section-5 is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex is-style-section-5--4">
+<h2 class="wp-block-heading alignwide has-text-align-center"><strong><br></strong>Editions: Ready-To-Race Bundles<br><br></h2>
 
 
 
-<h6 class="wp-block-heading"><br><br><br><mark style="background-color:rgba(0, 0, 0, 0);color:#f41515" class="has-inline-color">ORIGINAL NR2003 Version<br>MUST BE INSTALLED<br>FOR EDITIONS TO WORK PROPERLY</mark></h6>
+<h6 class="wp-block-heading"><mark style="background-color:rgba(0, 0, 0, 0);color:#f41515" class="has-inline-color">ORIGINAL NR2003 Version<br>MUST BE INSTALLED<br>FOR EDITIONS TO WORK PROPERLY</mark></h6>
 </div>
 
 
 
-<figure class="wp-block-image alignfull size-full" style="margin-bottom:24px"><img decoding="async" width="2560" height="1440" src="/wp-content/uploads/2025/09/NR2003-2025-09-06-21-53-44.jpg" alt="" class="wp-image-119" srcset="/wp-content/uploads/2025/09/NR2003-2025-09-06-21-53-44.jpg 2560w, /wp-content/uploads/2025/09/NR2003-2025-09-06-21-53-44-300x169.jpg 300w, /wp-content/uploads/2025/09/NR2003-2025-09-06-21-53-44-1024x576.jpg 1024w, /wp-content/uploads/2025/09/NR2003-2025-09-06-21-53-44-768x432.jpg 768w, /wp-content/uploads/2025/09/NR2003-2025-09-06-21-53-44-1536x864.jpg 1536w, /wp-content/uploads/2025/09/NR2003-2025-09-06-21-53-44-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></figure>
+<div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -275,73 +279,43 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 
 
 
-<p class="has-text-align-center has-medium-font-size">COMPLETE OVERHAUL of the original game. The best way to experience NR2003 in the modern age while keeping the heart and vision of the Papyrus Team.<br><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-base-color"><br></mark><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125">*** RELEASE NOTES / CREDIT *** </a></mark></mark></mark></mark><br><mark style="background-color:#111111" class="has-inline-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125"> </a></mark><mark style="background-color:#111111" class="has-inline-color has-accent-1-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125">DOWNLOAD</a></mark><mark style="background-color:#111111" class="has-inline-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125"> </a></mark></p>
+<p class="has-text-align-center">COMPLETE OVERHAUL of the original game. The best way to experience NR2003 in the modern age while keeping the heart and vision of the Papyrus Team.<br><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-base-color"><br></mark><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125">*** RELEASE NOTES / CREDIT *** </a></mark></mark></mark></mark><br><mark style="background-color:#111111" class="has-inline-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125"></a></mark><mark style="background-color:#111111" class="has-inline-color has-accent-1-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125">DOWNLOAD</a></mark><mark style="background-color:#111111" class="has-inline-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125"></a></mark></p>
+
+
+
+<figure class="wp-block-image size-full" style="margin-bottom:24px"><img decoding="async" width="2560" height="1440" src="/wp-content/uploads/2025/10/NR2003-2025-09-06-21-50-46.jpg" alt="" class="wp-image-126" style="aspect-ratio:4/3;object-fit:cover" srcset="/wp-content/uploads/2025/10/NR2003-2025-09-06-21-50-46.jpg 2560w, /wp-content/uploads/2025/10/NR2003-2025-09-06-21-50-46-300x169.jpg 300w, /wp-content/uploads/2025/10/NR2003-2025-09-06-21-50-46-1024x576.jpg 1024w, /wp-content/uploads/2025/10/NR2003-2025-09-06-21-50-46-768x432.jpg 768w, /wp-content/uploads/2025/10/NR2003-2025-09-06-21-50-46-1536x864.jpg 1536w, /wp-content/uploads/2025/10/NR2003-2025-09-06-21-50-46-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity">
+</div>
+</div>
+</div>
 
 
 
 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full" style="margin-bottom:24px"><img loading="lazy" decoding="async" width="320" height="266" src="/wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.webp" alt="" class="wp-image-24" style="aspect-ratio:4/3;object-fit:cover" srcset="/wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.webp 320w, /wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM-300x249.webp 300w" sizes="auto, (max-width: 320px) 100vw, 320px"></figure>
+<h1 class="wp-block-heading has-text-align-center">NASCAR Racing 4 Edition – WIP – To Be Announced</h1>
 
 
 
-<h3 class="wp-block-heading">NASCAR CUP GEN 5 Edition</h3>
+<p class="has-text-align-center">Direct Port of NR4 Mod /Tracks along with other elements to bring back the nostalgic feelings.<br><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-base-color"><br></mark><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><a href="/nr2003-enhanced-edition/" data-type="page" data-id="125"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color">*** RELEASE NOTES / CREDIT *** </mark></mark></mark></a></mark></mark></mark></mark><br><mark style="background-color:#111111" class="has-inline-color has-accent-1-color">DOWNLOAD </mark></p>
 
 
 
-<p class="has-medium-font-size">Work<br>In<br>Progress<br><br><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color">*** RELEASE NOTES / CREDIT *** </mark><mark style="background-color:#FFFFFF" class="has-inline-color has-base-color"> </mark></mark></mark><br><mark style="background-color:#111111" class="has-inline-color"> </mark><mark style="background-color:#111111" class="has-inline-color has-accent-1-color">DOWNLOAD </mark></p>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full" style="margin-bottom:24px"><img loading="lazy" decoding="async" width="320" height="266" src="/wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.webp" alt="" class="wp-image-24" style="aspect-ratio:4/3;object-fit:cover" srcset="/wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.webp 320w, /wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM-300x249.webp 300w" sizes="auto, (max-width: 320px) 100vw, 320px"></figure>
-
-
-
-<h3 class="wp-block-heading">NASCAR CUP GEN 6 Edition</h3>
-
-
-
-<p class="has-medium-font-size">Work<br>In<br>Progress<br><br><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color">*** RELEASE NOTES / CREDIT *** </mark><mark style="background-color:#FFFFFF" class="has-inline-color has-base-color"> </mark></mark></mark><br><mark style="background-color:#111111" class="has-inline-color"> </mark><mark style="background-color:#111111" class="has-inline-color has-accent-1-color">DOWNLOAD </mark></mark></mark></mark></p>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full" style="margin-bottom:24px"><img loading="lazy" decoding="async" width="320" height="266" src="/wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.webp" alt="" class="wp-image-24" style="aspect-ratio:4/3;object-fit:cover" srcset="/wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM.webp 320w, /wp-content/uploads/2025/08/nRkoO5AOK006Gs6JXfsAdcRb7xVcoNfOPt6R-X0epAM-300x249.webp 300w" sizes="auto, (max-width: 320px) 100vw, 320px"></figure>
-
-
-
-<h3 class="wp-block-heading">NASCAR CUP GEN 7 Edition</h3>
-
-
-
-<p class="has-medium-font-size">Work<br>In<br>Progress<br><br><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color">*** RELEASE NOTES / CREDIT *** </mark><mark style="background-color:#FFFFFF" class="has-inline-color has-base-color"> </mark></mark></mark><br><mark style="background-color:#111111" class="has-inline-color"> </mark><mark style="background-color:#111111" class="has-inline-color has-accent-1-color">DOWNLOAD </mark></mark></mark></mark></mark></mark></p>
-</div>
-
-
-
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <figure class="wp-block-image size-full" style="margin-bottom:24px"><img loading="lazy" decoding="async" width="2560" height="1440" src="/wp-content/uploads/2025/09/NR4-2025-09-01-15-12-36.jpg" alt="" class="wp-image-37" style="aspect-ratio:4/3;object-fit:cover" srcset="/wp-content/uploads/2025/09/NR4-2025-09-01-15-12-36.jpg 2560w, /wp-content/uploads/2025/09/NR4-2025-09-01-15-12-36-300x169.jpg 300w, /wp-content/uploads/2025/09/NR4-2025-09-01-15-12-36-1024x576.jpg 1024w, /wp-content/uploads/2025/09/NR4-2025-09-01-15-12-36-768x432.jpg 768w, /wp-content/uploads/2025/09/NR4-2025-09-01-15-12-36-1536x864.jpg 1536w, /wp-content/uploads/2025/09/NR4-2025-09-01-15-12-36-2048x1152.jpg 2048w" sizes="auto, (max-width: 2560px) 100vw, 2560px"></figure>
 
 
 
-<h3 class="wp-block-heading">NASCAR RACING 4 Edition</h3>
-
-
-
-<p class="has-medium-font-size">Direct Port of NR4 Mod /Tracks along with other elements to bring back the nostalgic feelings.<br><br><mark style="background-color:#111111" class="has-inline-color has-base-color"><mark style="background-color:#503AA8" class="has-inline-color has-base-color"><mark style="background-color:#111111" class="has-inline-color has-base-color">*** RELEASE NOTES / CREDIT *** </mark><mark style="background-color:#FFFFFF" class="has-inline-color has-base-color"> </mark></mark></mark><br><mark style="background-color:#111111" class="has-inline-color"> </mark><mark style="background-color:#111111" class="has-inline-color has-accent-1-color">DOWNLOAD </mark></p>
-</div>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 </div>
 </div>
 
 
 
 <p></p>
-</div>
-	</div>
-	
+</div></div>
 </main>
 
 
@@ -358,8 +332,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 </div>
 </div>
 </div>
-</footer>
-</div>
+</footer></div>
 <script type="module" src="/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=b0f909c3ec791c383210" id="@wordpress/block-library/navigation/view-js-module" fetchpriority="low" data-wp-router-options="{&quot;loadOnClientNavigation&quot;:true}"></script>
 <script id="wp-block-template-skip-link-js-after">
 	( function() {
